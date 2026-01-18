@@ -1,0 +1,360 @@
+{
+  "nav": {
+    "home": "Home",
+    "researchers": "Researchers",
+    "projectOwners": "Project Owners",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch"
+  },
+  "hero": {
+    "badge": "Independent Research Collaboration Platform",
+    "title": "Science Contact Hub",
+    "subtitle": "Connecting researchers with project owners worldwide. Expand your academic network, discover collaboration opportunities, and gain visibility beyond your immediate geographic environment.",
+    "joinResearcher": "Join as Researcher",
+    "postProject": "Post a Project",
+    "globalNetwork": "Global Network",
+    "crossBorder": "Cross-border Collaboration",
+    "independent": "Independent Platform"
+  },
+  "overview": {
+    "label": "Platform Overview",
+    "title": "Understanding Our Role in Research Collaboration",
+    "description": "This platform is designed to connect and support individual researchers from around the world. Its primary aim is to facilitate meaningful academic and research collaborations.",
+    "forResearchers": {
+      "title": "For Individual Researchers",
+      "description": "Connect with researchers worldwide to expand your academic network and discover new collaboration opportunities."
+    },
+    "forOwners": {
+      "title": "For Project Owners",
+      "description": "Find qualified researchers with the expertise your projects need, based on skills and research interests."
+    },
+    "integrity": {
+      "title": "Research Integrity",
+      "description": "Maintaining independence and transparency in all collaborations with a focus on ethical research practices."
+    },
+    "learnMore": "Learn more"
+  },
+  "howItWorks": {
+    "label": "How It Works",
+    "title": "A Neutral Space for Research Collaboration",
+    "description": "The platform focuses on matching capabilities rather than institutions, helping researchers expand their international networks and gain exposure beyond their immediate academic environment.",
+    "step1": {
+      "title": "What Science Contact Hub Is",
+      "description": "Science Contact Hub (SCH) is an independent online platform that facilitates initial contact between individual researchers and project owners who are seeking research collaboration. SCH does not conduct research, manage projects or participate in scientific outputs."
+    },
+    "step2": {
+      "title": "What the Platform Does",
+      "description": "It serves as a neutral intermediary, facilitating the initial connection between researchers and project owners based on their stated interests and expertise. The platform aims to increase the visibility of collaboration opportunities and individual researcher profiles."
+    },
+    "step3": {
+      "title": "What the Platform Does Not Do",
+      "description": "It does not perform research, manage projects, validate credentials, provide funding, or engage in any contractual or financial arrangements. The platform is strictly for facilitating initial contact and increasing visibility."
+    },
+    "step4": {
+      "title": "No Guarantees or Liability",
+      "description": "SCH does not guarantee the authenticity, quality, originality or ethical compliance of any research conducted through connections made on the platform. All responsibility for research conduct and outcomes rests entirely with the collaborating parties."
+    }
+  },
+  "benefits": {
+    "label": "Why Choose SCH",
+    "title": "Lowering Barriers to Discovery and Contact",
+    "description": "By lowering barriers to discovery and contact, the platform seeks to promote international collaboration, knowledge exchange and broader visibility for individual researchers across disciplines.",
+    "items": [
+      "Expand international research networks",
+      "Cross-border collaboration opportunities",
+      "Increased visibility for researchers",
+      "Neutral matching based on expertise",
+      "No institutional barriers",
+      "Direct researcher-to-project connections"
+    ],
+    "getStarted": "Get Started Today",
+    "capabilityMatching": "Capability-Based Matching",
+    "capabilityDesc": "Connect based on shared interests, complementary expertise, and aligned research goals—not institutional affiliations."
+  },
+  "cta": {
+    "title": "Ready to Expand Your Research Network?",
+    "description": "Join Science Contact Hub today and connect with researchers and project owners from around the world.",
+    "submitProfile": "Submit Your Profile",
+    "submitProject": "Submit Your Project"
+  },
+  "researchers": {
+    "label": "For Individual Researchers",
+    "title": "Expand Your Research Horizons",
+    "description": "This section is intended for researchers at different career stages who wish to express interest in participating in externally led research projects. SCH does not act as an employer, supervisor or research sponsor.",
+    "submitProfile": "Submit Your Profile",
+    "learnMore": "Learn More",
+    "howItWorks": {
+      "label": "How It Works",
+      "title": "Understanding Your Participation",
+      "description": "Clear expectations and responsibilities for researchers using the platform."
+    },
+    "participation": {
+      "title": "What Participation Means",
+      "description": "By submitting a profile, researchers make their expertise visible to project owners who are seeking collaborators. SCH may introduce researchers to project owners, but does not participate further in the collaboration."
+    },
+    "responsibility": {
+      "title": "Responsibility Disclaimer",
+      "description": "Researchers remain fully responsible for the integrity, originality, ethical compliance and accuracy of their contributions. SCH does not review, assess or verify research work, data or conclusions."
+    },
+    "ethics": {
+      "title": "Ethical Expectations",
+      "description": "Researchers are expected to adhere to established academic standards, including avoidance of plagiarism, appropriate data handling, respect for intellectual property and compliance with disciplinary and institutional norms."
+    },
+    "benefitsLabel": "Benefits",
+    "benefitsTitle": "Why Join Science Contact Hub",
+    "benefitsDesc": "Discover the advantages of making your research profile visible to the global research community.",
+    "visibility": {
+      "title": "International Visibility",
+      "description": "Gain exposure to project owners and collaborators beyond your immediate geographic and institutional environment."
+    },
+    "network": {
+      "title": "Expand Your Network",
+      "description": "Connect with researchers and project owners across disciplines and borders based on shared interests."
+    },
+    "matching": {
+      "title": "Capability-Based Matching",
+      "description": "Be discovered for your expertise and research interests, not your institutional affiliation."
+    },
+    "opportunities": {
+      "title": "New Opportunities",
+      "description": "Access collaboration opportunities that align with your research goals and career development."
+    },
+    "expectations": {
+      "label": "Ethical Standards",
+      "title": "What We Expect from Researchers",
+      "description": "All researchers participating through Science Contact Hub are expected to maintain the highest standards of academic integrity and ethical conduct.",
+      "items": [
+        "Maintain academic integrity in all research activities",
+        "Avoid plagiarism and respect intellectual property",
+        "Handle data appropriately and ethically",
+        "Comply with disciplinary and institutional norms",
+        "Ensure originality in research contributions",
+        "Uphold transparency in collaborations"
+      ]
+    },
+    "notice": {
+      "title": "Important Notice",
+      "description": "Submission of a profile does not imply endorsement, acceptance or guaranteed collaboration. Introductions depend on the relevance of expertise to project needs."
+    },
+    "form": {
+      "label": "Get Started",
+      "title": "Submit Your Profile",
+      "description": "Share your research interests and expertise to connect with project owners seeking collaborators. Your profile will help us match you with relevant opportunities.",
+      "free": "Free to submit",
+      "noCommitment": "No commitment required",
+      "globalVisibility": "Global visibility",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "institution": "Current Affiliation (Optional)",
+      "field": "Research Field / Expertise",
+      "interests": "Research Interests & Goals",
+      "interestsPlaceholder": "Describe your research interests, expertise, and what type of collaborations you're seeking...",
+      "agree": "I understand that SCH facilitates initial contact only and does not guarantee collaborations. I accept responsibility for my research conduct.",
+      "submit": "Submit Profile"
+    }
+  },
+  "projectOwners": {
+    "label": "For Project Owners",
+    "title": "Find the Right Research Expertise",
+    "description": "This section is intended for individuals or organisations managing funded or institutionally supported research projects who are seeking additional expertise or wish to broaden their collaborator base.",
+    "submitProject": "Submit Your Project",
+    "learnMore": "Learn More",
+    "role": {
+      "label": "Our Role",
+      "title": "How SCH Supports Project Owners",
+      "description": "Understanding the scope of our platform and your responsibilities as a project owner."
+    },
+    "support": {
+      "title": "What SCH Supports",
+      "description": "SCH supports project owners by increasing visibility of their collaboration needs and by enabling contact with researchers whose expertise may complement existing teams."
+    },
+    "dueDiligence": {
+      "title": "Due Diligence Responsibility",
+      "description": "SCH does not verify researcher credentials, affiliations or prior outputs. Project owners are solely responsible for conducting their own assessment, selection and due diligence."
+    },
+    "governance": {
+      "title": "Ethical and Governance Responsibility",
+      "description": "Project owners are responsible for ensuring that projects comply with relevant ethical standards, data protection rules, contractual obligations and institutional policies."
+    },
+    "benefitsLabel": "Benefits",
+    "benefitsTitle": "Why Use Science Contact Hub",
+    "benefitsDesc": "Discover qualified researchers and expand your project team efficiently.",
+    "globalTalent": {
+      "title": "Access Global Talent",
+      "description": "Connect with qualified researchers from around the world who have the expertise your projects need."
+    },
+    "expertiseMatching": {
+      "title": "Expertise Matching",
+      "description": "Find collaborators based on their research interests, skills, and alignment with your project goals."
+    },
+    "expandNetwork": {
+      "title": "Expand Your Network",
+      "description": "Build international research collaborations and broaden your team's expertise base."
+    },
+    "streamlined": {
+      "title": "Streamlined Discovery",
+      "description": "Efficiently discover potential collaborators without institutional barriers or geographic limitations."
+    },
+    "responsibilities": {
+      "label": "Your Responsibilities",
+      "title": "Project Owner Obligations",
+      "description": "SCH facilitates initial contact only. Project owners retain full responsibility for all aspects of project management and researcher engagement.",
+      "items": [
+        "Verify researcher credentials independently",
+        "Conduct thorough due diligence",
+        "Ensure ethical compliance",
+        "Follow data protection regulations",
+        "Meet contractual obligations",
+        "Adhere to institutional policies"
+      ]
+    },
+    "disclaimer": {
+      "title": "Important Disclaimer",
+      "description": "Our platform prioritizes research integrity and maintains complete independence from commercial interests. SCH does not participate in project execution or provide any guarantees regarding research outcomes."
+    },
+    "form": {
+      "label": "Get Started",
+      "title": "Submit Your Project Needs",
+      "description": "Describe your project and the expertise you're seeking. We'll help connect you with researchers who match your requirements.",
+      "noFees": "No fees or commissions",
+      "globalResearchers": "Access to global researchers",
+      "expertiseMatching": "Expertise-based matching",
+      "contactName": "Contact Name",
+      "organisation": "Organisation",
+      "email": "Email Address",
+      "projectTitle": "Project Title / Description",
+      "expertise": "Expertise Required",
+      "details": "Project Details & Collaboration Needs",
+      "detailsPlaceholder": "Describe your project, the type of collaboration you're seeking, and any specific requirements for potential collaborators...",
+      "agree": "I understand that SCH facilitates initial contact only and that I am responsible for all due diligence and project governance.",
+      "submit": "Submit Project"
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to common questions about our platform, how it works, and what you can expect when using Science Contact Hub.",
+    "questions": "questions",
+    "stillHaveQuestions": "Still have questions?",
+    "cantFind": "Can't find what you're looking for? Our team is here to help.",
+    "contactUs": "Contact Us",
+    "researchIntegrity": "Research Integrity",
+    "integrityDesc": "We maintain complete independence and prioritize ethical research practices.",
+    "categories": {
+      "about": {
+        "title": "About the Platform",
+        "q1": "What is Science Contact Hub?",
+        "a1": "Science Contact Hub (SCH) is an independent online platform that facilitates initial contact between individual researchers and project owners who are seeking research collaboration. SCH does not conduct research, manage projects or participate in scientific outputs. Our role is limited to enabling connections and improving visibility.",
+        "q2": "What does the platform do?",
+        "a2": "It serves as a neutral intermediary, facilitating the initial connection between researchers and project owners based on their stated interests and expertise. The platform aims to increase the visibility of collaboration opportunities and individual researcher profiles, helping researchers expand their international networks and gain exposure.",
+        "q3": "What does the platform NOT do?",
+        "a3": "It does not perform research, manage projects, validate credentials, provide funding, or engage in any contractual or financial arrangements. The platform is strictly for facilitating initial contact and increasing visibility. All collaborations, responsibilities and research outputs remain entirely under the control of the participating researchers and project owners."
+      },
+      "responsibility": {
+        "title": "Responsibilities & Liability",
+        "q1": "Does SCH guarantee research quality or outcomes?",
+        "a1": "No. SCH does not guarantee research quality, authenticity, ethical compliance or successful outcomes. All responsibility for research conduct and outcomes rests entirely with the collaborating parties. We serve only as an initial connection point.",
+        "q2": "Is SCH responsible for research conduct?",
+        "a2": "No. SCH bears no responsibility for research design, execution, analysis, authorship or dissemination. Researchers and project owners are fully responsible for ensuring their work meets all ethical, legal, and professional standards applicable to their fields.",
+        "q3": "Who is responsible for verifying credentials?",
+        "a3": "Project owners are solely responsible for conducting their own assessment, selection and due diligence when engaging with researchers. SCH does not verify researcher credentials, affiliations or prior outputs. We recommend thorough vetting before entering into any collaboration."
+      },
+      "financial": {
+        "title": "Financial & Commercial",
+        "q1": "Does SCH receive payment or charge fees?",
+        "a1": "No. SCH does not receive fees or commissions and does not participate in financial or contractual arrangements between researchers and project owners. The platform is free to use for both researchers and project owners.",
+        "q2": "Is SCH affiliated with any commercial interests?",
+        "a2": "Our platform prioritizes research integrity and maintains complete independence from commercial interests. We do not accept advertising, sponsorship, or any form of commercial influence that could compromise our neutrality."
+      },
+      "collaborations": {
+        "title": "Collaborations",
+        "q1": "What is SCH's role in collaborations?",
+        "a1": "SCH's role is limited to facilitating initial contact. All further interaction occurs directly between researchers and project owners. Once an introduction is made, we step back and let the parties develop their collaboration independently.",
+        "q2": "Does submitting a profile guarantee collaboration?",
+        "a2": "No. Submission of a profile does not imply endorsement, acceptance or guaranteed collaboration. Introductions depend on the relevance of expertise to project needs and are at the discretion of the platform and project owners.",
+        "q3": "How are researchers and projects matched?",
+        "a3": "The platform focuses on matching capabilities rather than institutions. We consider stated research interests, areas of expertise, and alignment with project goals. This approach helps lower barriers to discovery and promotes international collaboration."
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Join Science Contact Hub and connect with researchers or project owners worldwide.",
+      "researcher": "I'm a Researcher",
+      "projectOwner": "I'm a Project Owner"
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Get in Touch",
+    "description": "Have questions or need assistance? We're here to help you connect with the right collaborators and make the most of Science Contact Hub.",
+    "reasons": {
+      "researcher": {
+        "title": "Researcher Inquiry",
+        "description": "Questions about submitting your profile or finding collaborations"
+      },
+      "projectOwner": {
+        "title": "Project Owner Inquiry",
+        "description": "Questions about posting projects or finding researchers"
+      },
+      "general": {
+        "title": "General Questions",
+        "description": "Any other questions about Science Contact Hub"
+      }
+    },
+    "form": {
+      "label": "Share Your Needs",
+      "title": "Connect with Researchers or Find the Perfect Project",
+      "description": "Whether you're a researcher looking for collaboration opportunities or a project owner seeking expertise, we're here to facilitate meaningful connections.",
+      "emailUs": "Email Us",
+      "responseTime": "Response Time",
+      "responseDesc": "We'll respond within 24 hours",
+      "secure": "Secure & Confidential",
+      "secureDesc": "Your information is protected",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "selectSubject": "Select a subject",
+      "subjectResearcher": "Researcher Inquiry",
+      "subjectProjectOwner": "Project Owner Inquiry",
+      "subjectCollaboration": "Collaboration Question",
+      "subjectTechnical": "Technical Support",
+      "subjectOther": "Other",
+      "message": "Tell Us About Your Needs",
+      "messagePlaceholder": "Describe your inquiry, research interests, project needs, or any questions you have...",
+      "submit": "Submit Request",
+      "note": "By submitting this form, you agree to our privacy policy. We'll never share your information with third parties."
+    },
+    "affiliation": {
+      "title": "Independent Research Platform",
+      "description": "Science Contact Hub is an independent platform connecting researchers with project owners worldwide. We facilitate initial contact while maintaining complete independence and promoting research integrity. Our platform does not conduct research itself and does not intervene in the design, execution or outcomes of research projects.",
+      "integrity": "Research Integrity",
+      "network": "Global Network",
+      "response": "24hr Response"
+    }
+  },
+  "footer": {
+    "description": "An independent platform connecting researchers with project owners worldwide. We facilitate initial contact while maintaining complete independence and promoting research integrity.",
+    "features": {
+      "independent": "Independent Platform",
+      "global": "Global Network",
+      "crossBorder": "Cross-border Collaboration"
+    },
+    "platform": "Platform",
+    "resources": "Resources",
+    "submitProfile": "Submit Profile",
+    "submitProject": "Submit Project",
+    "howItWorks": "How It Works",
+    "getSupport": "Get Support",
+    "contactTitle": "Contact Us",
+    "contactDesc": "Have questions? We're here to help you connect with the right collaborators.",
+    "getInTouch": "Get in Touch",
+    "copyright": "Science Contact Hub. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

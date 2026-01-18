@@ -1,0 +1,360 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "researchers": "Forscher",
+    "projectOwners": "Projektinhaber",
+    "faq": "FAQ",
+    "contact": "Kontakt"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch"
+  },
+  "hero": {
+    "badge": "Unabhängige Forschungskooperationsplattform",
+    "title": "Science Contact Hub",
+    "subtitle": "Vernetzung von Forschern mit Projektinhabern weltweit. Erweitern Sie Ihr akademisches Netzwerk, entdecken Sie Kooperationsmöglichkeiten und gewinnen Sie Sichtbarkeit über Ihr unmittelbares geografisches Umfeld hinaus.",
+    "joinResearcher": "Als Forscher beitreten",
+    "postProject": "Projekt veröffentlichen",
+    "globalNetwork": "Globales Netzwerk",
+    "crossBorder": "Grenzüberschreitende Zusammenarbeit",
+    "independent": "Unabhängige Plattform"
+  },
+  "overview": {
+    "label": "Plattformübersicht",
+    "title": "Unsere Rolle in der Forschungskooperation verstehen",
+    "description": "Diese Plattform ist darauf ausgelegt, einzelne Forscher aus der ganzen Welt zu verbinden und zu unterstützen. Ihr Hauptziel ist es, bedeutungsvolle akademische und Forschungskooperationen zu ermöglichen.",
+    "forResearchers": {
+      "title": "Für Einzelforscher",
+      "description": "Vernetzen Sie sich mit Forschern weltweit, um Ihr akademisches Netzwerk zu erweitern und neue Kooperationsmöglichkeiten zu entdecken."
+    },
+    "forOwners": {
+      "title": "Für Projektinhaber",
+      "description": "Finden Sie qualifizierte Forscher mit der Expertise, die Ihre Projekte benötigen, basierend auf Fähigkeiten und Forschungsinteressen."
+    },
+    "integrity": {
+      "title": "Forschungsintegrität",
+      "description": "Bewahrung von Unabhängigkeit und Transparenz in allen Kooperationen mit Fokus auf ethische Forschungspraktiken."
+    },
+    "learnMore": "Mehr erfahren"
+  },
+  "howItWorks": {
+    "label": "Wie es funktioniert",
+    "title": "Ein neutraler Raum für Forschungskooperation",
+    "description": "Die Plattform konzentriert sich auf die Abstimmung von Fähigkeiten statt Institutionen und hilft Forschern, ihre internationalen Netzwerke zu erweitern und Sichtbarkeit zu gewinnen.",
+    "step1": {
+      "title": "Was Science Contact Hub ist",
+      "description": "Science Contact Hub (SCH) ist eine unabhängige Online-Plattform, die den ersten Kontakt zwischen einzelnen Forschern und Projektinhabern ermöglicht, die Forschungskooperationen suchen. SCH führt keine Forschung durch, verwaltet keine Projekte und beteiligt sich nicht an wissenschaftlichen Ergebnissen."
+    },
+    "step2": {
+      "title": "Was die Plattform tut",
+      "description": "Sie dient als neutraler Vermittler und ermöglicht die erste Verbindung zwischen Forschern und Projektinhabern basierend auf ihren angegebenen Interessen und Fachkenntnissen. Die Plattform zielt darauf ab, die Sichtbarkeit von Kooperationsmöglichkeiten und einzelnen Forscherprofilen zu erhöhen."
+    },
+    "step3": {
+      "title": "Was die Plattform NICHT tut",
+      "description": "Sie führt keine Forschung durch, verwaltet keine Projekte, validiert keine Qualifikationen, stellt keine Finanzierung bereit und geht keine vertraglichen oder finanziellen Vereinbarungen ein. Die Plattform dient ausschließlich der Vermittlung des ersten Kontakts und der Erhöhung der Sichtbarkeit."
+    },
+    "step4": {
+      "title": "Keine Garantien oder Haftung",
+      "description": "SCH garantiert nicht die Authentizität, Qualität, Originalität oder ethische Konformität von Forschung, die durch Verbindungen auf der Plattform durchgeführt wird. Die gesamte Verantwortung für die Forschungsdurchführung und -ergebnisse liegt vollständig bei den zusammenarbeitenden Parteien."
+    }
+  },
+  "benefits": {
+    "label": "Warum SCH wählen",
+    "title": "Barrieren für Entdeckung und Kontakt senken",
+    "description": "Durch das Senken von Barrieren für Entdeckung und Kontakt fördert die Plattform internationale Zusammenarbeit, Wissensaustausch und breitere Sichtbarkeit für einzelne Forscher über alle Disziplinen hinweg.",
+    "items": [
+      "Internationale Forschungsnetzwerke erweitern",
+      "Grenzüberschreitende Kooperationsmöglichkeiten",
+      "Erhöhte Sichtbarkeit für Forscher",
+      "Neutrale Abstimmung basierend auf Expertise",
+      "Keine institutionellen Barrieren",
+      "Direkte Forscher-zu-Projekt-Verbindungen"
+    ],
+    "getStarted": "Heute starten",
+    "capabilityMatching": "Kompetenzbasierte Abstimmung",
+    "capabilityDesc": "Verbinden Sie sich basierend auf gemeinsamen Interessen, ergänzenden Fachkenntnissen und abgestimmten Forschungszielen—nicht auf institutionellen Zugehörigkeiten."
+  },
+  "cta": {
+    "title": "Bereit, Ihr Forschungsnetzwerk zu erweitern?",
+    "description": "Treten Sie Science Contact Hub heute bei und verbinden Sie sich mit Forschern und Projektinhabern aus aller Welt.",
+    "submitProfile": "Ihr Profil einreichen",
+    "submitProject": "Ihr Projekt einreichen"
+  },
+  "researchers": {
+    "label": "Für Einzelforscher",
+    "title": "Erweitern Sie Ihre Forschungshorizonte",
+    "description": "Dieser Abschnitt richtet sich an Forscher in verschiedenen Karrierestufen, die Interesse an der Teilnahme an extern geleiteten Forschungsprojekten bekunden möchten. SCH fungiert nicht als Arbeitgeber, Betreuer oder Forschungssponsor.",
+    "submitProfile": "Ihr Profil einreichen",
+    "learnMore": "Mehr erfahren",
+    "howItWorks": {
+      "label": "Wie es funktioniert",
+      "title": "Ihre Teilnahme verstehen",
+      "description": "Klare Erwartungen und Verantwortlichkeiten für Forscher, die die Plattform nutzen."
+    },
+    "participation": {
+      "title": "Was Teilnahme bedeutet",
+      "description": "Durch das Einreichen eines Profils machen Forscher ihre Expertise für Projektinhaber sichtbar, die Mitarbeiter suchen. SCH kann Forscher Projektinhabern vorstellen, beteiligt sich aber nicht weiter an der Zusammenarbeit."
+    },
+    "responsibility": {
+      "title": "Haftungsausschluss",
+      "description": "Forscher bleiben vollständig verantwortlich für die Integrität, Originalität, ethische Konformität und Genauigkeit ihrer Beiträge. SCH überprüft, bewertet oder verifiziert keine Forschungsarbeiten, Daten oder Schlussfolgerungen."
+    },
+    "ethics": {
+      "title": "Ethische Erwartungen",
+      "description": "Von Forschern wird erwartet, dass sie etablierte akademische Standards einhalten, einschließlich Vermeidung von Plagiaten, angemessener Datenhandhabung, Respekt vor geistigem Eigentum und Einhaltung disziplinärer und institutioneller Normen."
+    },
+    "benefitsLabel": "Vorteile",
+    "benefitsTitle": "Warum Science Contact Hub beitreten",
+    "benefitsDesc": "Entdecken Sie die Vorteile, Ihr Forschungsprofil der globalen Forschungsgemeinschaft sichtbar zu machen.",
+    "visibility": {
+      "title": "Internationale Sichtbarkeit",
+      "description": "Gewinnen Sie Sichtbarkeit bei Projektinhabern und Mitarbeitern über Ihr unmittelbares geografisches und institutionelles Umfeld hinaus."
+    },
+    "network": {
+      "title": "Erweitern Sie Ihr Netzwerk",
+      "description": "Verbinden Sie sich mit Forschern und Projektinhabern über Disziplinen und Grenzen hinweg basierend auf gemeinsamen Interessen."
+    },
+    "matching": {
+      "title": "Kompetenzbasierte Abstimmung",
+      "description": "Werden Sie für Ihre Expertise und Forschungsinteressen entdeckt, nicht für Ihre institutionelle Zugehörigkeit."
+    },
+    "opportunities": {
+      "title": "Neue Möglichkeiten",
+      "description": "Erhalten Sie Zugang zu Kooperationsmöglichkeiten, die mit Ihren Forschungszielen und Ihrer Karriereentwicklung übereinstimmen."
+    },
+    "expectations": {
+      "label": "Ethische Standards",
+      "title": "Was wir von Forschern erwarten",
+      "description": "Alle Forscher, die über Science Contact Hub teilnehmen, sind verpflichtet, die höchsten Standards akademischer Integrität und ethischen Verhaltens einzuhalten.",
+      "items": [
+        "Akademische Integrität in allen Forschungsaktivitäten wahren",
+        "Plagiate vermeiden und geistiges Eigentum respektieren",
+        "Daten angemessen und ethisch behandeln",
+        "Disziplinäre und institutionelle Normen einhalten",
+        "Originalität in Forschungsbeiträgen sicherstellen",
+        "Transparenz in Kooperationen wahren"
+      ]
+    },
+    "notice": {
+      "title": "Wichtiger Hinweis",
+      "description": "Die Einreichung eines Profils impliziert keine Billigung, Annahme oder garantierte Zusammenarbeit. Vorstellungen hängen von der Relevanz der Expertise für die Projektanforderungen ab."
+    },
+    "form": {
+      "label": "Loslegen",
+      "title": "Ihr Profil einreichen",
+      "description": "Teilen Sie Ihre Forschungsinteressen und Expertise, um sich mit Projektinhabern zu verbinden, die Mitarbeiter suchen. Ihr Profil hilft uns, Sie mit relevanten Möglichkeiten abzustimmen.",
+      "free": "Kostenlos einzureichen",
+      "noCommitment": "Keine Verpflichtung erforderlich",
+      "globalVisibility": "Weltweite Sichtbarkeit",
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "institution": "Aktuelle Zugehörigkeit (Optional)",
+      "field": "Forschungsgebiet / Expertise",
+      "interests": "Forschungsinteressen & Ziele",
+      "interestsPlaceholder": "Beschreiben Sie Ihre Forschungsinteressen, Expertise und welche Art von Kooperationen Sie suchen...",
+      "agree": "Ich verstehe, dass SCH nur den ersten Kontakt vermittelt und keine Kooperationen garantiert. Ich übernehme die Verantwortung für meine Forschungstätigkeit.",
+      "submit": "Profil einreichen"
+    }
+  },
+  "projectOwners": {
+    "label": "Für Projektinhaber",
+    "title": "Finden Sie die richtige Forschungsexpertise",
+    "description": "Dieser Abschnitt richtet sich an Einzelpersonen oder Organisationen, die finanzierte oder institutionell unterstützte Forschungsprojekte verwalten und zusätzliche Expertise suchen oder ihre Mitarbeiterbasis erweitern möchten.",
+    "submitProject": "Ihr Projekt einreichen",
+    "learnMore": "Mehr erfahren",
+    "role": {
+      "label": "Unsere Rolle",
+      "title": "Wie SCH Projektinhaber unterstützt",
+      "description": "Verstehen Sie den Umfang unserer Plattform und Ihre Verantwortlichkeiten als Projektinhaber."
+    },
+    "support": {
+      "title": "Was SCH unterstützt",
+      "description": "SCH unterstützt Projektinhaber, indem sie die Sichtbarkeit ihrer Kooperationsbedürfnisse erhöht und den Kontakt mit Forschern ermöglicht, deren Expertise bestehende Teams ergänzen kann."
+    },
+    "dueDiligence": {
+      "title": "Sorgfaltspflicht",
+      "description": "SCH überprüft keine Qualifikationen, Zugehörigkeiten oder frühere Leistungen von Forschern. Projektinhaber sind allein verantwortlich für ihre eigene Bewertung, Auswahl und Sorgfaltsprüfung."
+    },
+    "governance": {
+      "title": "Ethische und Governance-Verantwortung",
+      "description": "Projektinhaber sind dafür verantwortlich, dass Projekte den relevanten ethischen Standards, Datenschutzregeln, vertraglichen Verpflichtungen und institutionellen Richtlinien entsprechen."
+    },
+    "benefitsLabel": "Vorteile",
+    "benefitsTitle": "Warum Science Contact Hub nutzen",
+    "benefitsDesc": "Entdecken Sie qualifizierte Forscher und erweitern Sie Ihr Projektteam effizient.",
+    "globalTalent": {
+      "title": "Zugang zu globalem Talent",
+      "description": "Verbinden Sie sich mit qualifizierten Forschern aus aller Welt, die die Expertise haben, die Ihre Projekte benötigen."
+    },
+    "expertiseMatching": {
+      "title": "Expertise-Abstimmung",
+      "description": "Finden Sie Mitarbeiter basierend auf ihren Forschungsinteressen, Fähigkeiten und der Übereinstimmung mit Ihren Projektzielen."
+    },
+    "expandNetwork": {
+      "title": "Erweitern Sie Ihr Netzwerk",
+      "description": "Bauen Sie internationale Forschungskooperationen auf und erweitern Sie die Expertise-Basis Ihres Teams."
+    },
+    "streamlined": {
+      "title": "Vereinfachte Entdeckung",
+      "description": "Entdecken Sie potenzielle Mitarbeiter effizient ohne institutionelle Barrieren oder geografische Einschränkungen."
+    },
+    "responsibilities": {
+      "label": "Ihre Verantwortlichkeiten",
+      "title": "Pflichten der Projektinhaber",
+      "description": "SCH vermittelt nur den ersten Kontakt. Projektinhaber behalten die volle Verantwortung für alle Aspekte des Projektmanagements und der Forschereinbindung.",
+      "items": [
+        "Qualifikationen von Forschern unabhängig überprüfen",
+        "Gründliche Sorgfaltsprüfung durchführen",
+        "Ethische Konformität sicherstellen",
+        "Datenschutzvorschriften befolgen",
+        "Vertragliche Verpflichtungen erfüllen",
+        "Institutionelle Richtlinien einhalten"
+      ]
+    },
+    "disclaimer": {
+      "title": "Wichtiger Haftungsausschluss",
+      "description": "Unsere Plattform priorisiert die Forschungsintegrität und wahrt vollständige Unabhängigkeit von kommerziellen Interessen. SCH beteiligt sich nicht an der Projektdurchführung und gibt keine Garantien bezüglich der Forschungsergebnisse."
+    },
+    "form": {
+      "label": "Loslegen",
+      "title": "Ihre Projektanforderungen einreichen",
+      "description": "Beschreiben Sie Ihr Projekt und die gesuchte Expertise. Wir helfen Ihnen, sich mit Forschern zu verbinden, die Ihren Anforderungen entsprechen.",
+      "noFees": "Keine Gebühren oder Provisionen",
+      "globalResearchers": "Zugang zu globalen Forschern",
+      "expertiseMatching": "Expertise-basierte Abstimmung",
+      "contactName": "Kontaktname",
+      "organisation": "Organisation",
+      "email": "E-Mail-Adresse",
+      "projectTitle": "Projekttitel / Beschreibung",
+      "expertise": "Erforderliche Expertise",
+      "details": "Projektdetails & Kooperationsbedarf",
+      "detailsPlaceholder": "Beschreiben Sie Ihr Projekt, die Art der gesuchten Zusammenarbeit und spezifische Anforderungen an potenzielle Mitarbeiter...",
+      "agree": "Ich verstehe, dass SCH nur den ersten Kontakt vermittelt und dass ich für alle Sorgfaltsprüfungen und Projekt-Governance verantwortlich bin.",
+      "submit": "Projekt einreichen"
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Häufig gestellte Fragen",
+    "description": "Finden Sie Antworten auf häufige Fragen über unsere Plattform, wie sie funktioniert und was Sie bei der Nutzung von Science Contact Hub erwarten können.",
+    "questions": "Fragen",
+    "stillHaveQuestions": "Haben Sie noch Fragen?",
+    "cantFind": "Können Sie nicht finden, wonach Sie suchen? Unser Team ist hier, um zu helfen.",
+    "contactUs": "Kontaktieren Sie uns",
+    "researchIntegrity": "Forschungsintegrität",
+    "integrityDesc": "Wir wahren vollständige Unabhängigkeit und priorisieren ethische Forschungspraktiken.",
+    "categories": {
+      "about": {
+        "title": "Über die Plattform",
+        "q1": "Was ist Science Contact Hub?",
+        "a1": "Science Contact Hub (SCH) ist eine unabhängige Online-Plattform, die den ersten Kontakt zwischen einzelnen Forschern und Projektinhabern ermöglicht, die Forschungskooperationen suchen. SCH führt keine Forschung durch, verwaltet keine Projekte und beteiligt sich nicht an wissenschaftlichen Ergebnissen. Unsere Rolle beschränkt sich darauf, Verbindungen zu ermöglichen und die Sichtbarkeit zu verbessern.",
+        "q2": "Was macht die Plattform?",
+        "a2": "Sie dient als neutraler Vermittler und ermöglicht die erste Verbindung zwischen Forschern und Projektinhabern basierend auf ihren angegebenen Interessen und Fachkenntnissen. Die Plattform zielt darauf ab, die Sichtbarkeit von Kooperationsmöglichkeiten und einzelnen Forscherprofilen zu erhöhen und Forschern zu helfen, ihre internationalen Netzwerke zu erweitern.",
+        "q3": "Was macht die Plattform NICHT?",
+        "a3": "Sie führt keine Forschung durch, verwaltet keine Projekte, validiert keine Qualifikationen, stellt keine Finanzierung bereit und geht keine vertraglichen oder finanziellen Vereinbarungen ein. Die Plattform dient ausschließlich der Vermittlung des ersten Kontakts und der Erhöhung der Sichtbarkeit. Alle Kooperationen, Verantwortlichkeiten und Forschungsergebnisse bleiben vollständig unter der Kontrolle der teilnehmenden Forscher und Projektinhaber."
+      },
+      "responsibility": {
+        "title": "Verantwortlichkeiten & Haftung",
+        "q1": "Garantiert SCH Forschungsqualität oder -ergebnisse?",
+        "a1": "Nein. SCH garantiert keine Forschungsqualität, Authentizität, ethische Konformität oder erfolgreiche Ergebnisse. Die gesamte Verantwortung für die Forschungsdurchführung und -ergebnisse liegt vollständig bei den zusammenarbeitenden Parteien. Wir dienen nur als erster Kontaktpunkt.",
+        "q2": "Ist SCH für die Forschungsdurchführung verantwortlich?",
+        "a2": "Nein. SCH trägt keine Verantwortung für Forschungsdesign, -durchführung, -analyse, Autorenschaft oder -verbreitung. Forscher und Projektinhaber sind vollständig dafür verantwortlich, dass ihre Arbeit alle ethischen, rechtlichen und professionellen Standards ihrer Fachgebiete erfüllt.",
+        "q3": "Wer ist für die Überprüfung von Qualifikationen verantwortlich?",
+        "a3": "Projektinhaber sind allein verantwortlich für ihre eigene Bewertung, Auswahl und Sorgfaltsprüfung bei der Zusammenarbeit mit Forschern. SCH überprüft keine Qualifikationen, Zugehörigkeiten oder frühere Leistungen von Forschern. Wir empfehlen eine gründliche Prüfung, bevor Sie eine Zusammenarbeit eingehen."
+      },
+      "financial": {
+        "title": "Finanziell & Kommerziell",
+        "q1": "Erhält SCH Zahlungen oder erhebt Gebühren?",
+        "a1": "Nein. SCH erhält keine Gebühren oder Provisionen und beteiligt sich nicht an finanziellen oder vertraglichen Vereinbarungen zwischen Forschern und Projektinhabern. Die Plattform ist kostenlos für Forscher und Projektinhaber.",
+        "q2": "Ist SCH mit kommerziellen Interessen verbunden?",
+        "a2": "Unsere Plattform priorisiert die Forschungsintegrität und wahrt vollständige Unabhängigkeit von kommerziellen Interessen. Wir akzeptieren keine Werbung, Sponsoring oder jede Form von kommerziellem Einfluss, der unsere Neutralität gefährden könnte."
+      },
+      "collaborations": {
+        "title": "Kooperationen",
+        "q1": "Was ist die Rolle von SCH bei Kooperationen?",
+        "a1": "Die Rolle von SCH beschränkt sich auf die Vermittlung des ersten Kontakts. Alle weiteren Interaktionen finden direkt zwischen Forschern und Projektinhabern statt. Sobald eine Vorstellung erfolgt ist, treten wir zurück und lassen die Parteien ihre Zusammenarbeit unabhängig entwickeln.",
+        "q2": "Garantiert das Einreichen eines Profils eine Zusammenarbeit?",
+        "a2": "Nein. Die Einreichung eines Profils impliziert keine Billigung, Annahme oder garantierte Zusammenarbeit. Vorstellungen hängen von der Relevanz der Expertise für die Projektanforderungen ab und liegen im Ermessen der Plattform und der Projektinhaber.",
+        "q3": "Wie werden Forscher und Projekte abgestimmt?",
+        "a3": "Die Plattform konzentriert sich auf die Abstimmung von Fähigkeiten statt Institutionen. Wir berücksichtigen angegebene Forschungsinteressen, Fachgebiete und Übereinstimmung mit Projektzielen. Dieser Ansatz hilft, Barrieren für die Entdeckung zu senken und fördert internationale Zusammenarbeit."
+      }
+    },
+    "cta": {
+      "title": "Bereit loszulegen?",
+      "description": "Treten Sie Science Contact Hub bei und verbinden Sie sich mit Forschern oder Projektinhabern weltweit.",
+      "researcher": "Ich bin Forscher",
+      "projectOwner": "Ich bin Projektinhaber"
+    }
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Kontaktieren Sie uns",
+    "description": "Haben Sie Fragen oder benötigen Hilfe? Wir sind hier, um Ihnen zu helfen, sich mit den richtigen Mitarbeitern zu verbinden und das Beste aus Science Contact Hub herauszuholen.",
+    "reasons": {
+      "researcher": {
+        "title": "Forscher-Anfrage",
+        "description": "Fragen zum Einreichen Ihres Profils oder zur Suche nach Kooperationen"
+      },
+      "projectOwner": {
+        "title": "Projektinhaber-Anfrage",
+        "description": "Fragen zum Veröffentlichen von Projekten oder zur Suche nach Forschern"
+      },
+      "general": {
+        "title": "Allgemeine Fragen",
+        "description": "Alle anderen Fragen zu Science Contact Hub"
+      }
+    },
+    "form": {
+      "label": "Teilen Sie Ihre Bedürfnisse",
+      "title": "Verbinden Sie sich mit Forschern oder finden Sie das perfekte Projekt",
+      "description": "Ob Sie ein Forscher sind, der nach Kooperationsmöglichkeiten sucht, oder ein Projektinhaber, der Expertise sucht – wir sind hier, um bedeutungsvolle Verbindungen zu ermöglichen.",
+      "emailUs": "Schreiben Sie uns",
+      "responseTime": "Antwortzeit",
+      "responseDesc": "Wir antworten innerhalb von 24 Stunden",
+      "secure": "Sicher & Vertraulich",
+      "secureDesc": "Ihre Informationen sind geschützt",
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "subject": "Betreff",
+      "selectSubject": "Betreff auswählen",
+      "subjectResearcher": "Forscher-Anfrage",
+      "subjectProjectOwner": "Projektinhaber-Anfrage",
+      "subjectCollaboration": "Kooperationsfrage",
+      "subjectTechnical": "Technischer Support",
+      "subjectOther": "Sonstiges",
+      "message": "Erzählen Sie uns von Ihren Bedürfnissen",
+      "messagePlaceholder": "Beschreiben Sie Ihre Anfrage, Forschungsinteressen, Projektbedürfnisse oder Fragen, die Sie haben...",
+      "submit": "Anfrage senden",
+      "note": "Mit dem Absenden dieses Formulars stimmen Sie unserer Datenschutzrichtlinie zu. Wir werden Ihre Informationen niemals an Dritte weitergeben."
+    },
+    "affiliation": {
+      "title": "Unabhängige Forschungsplattform",
+      "description": "Science Contact Hub ist eine unabhängige Plattform, die Forscher mit Projektinhabern weltweit verbindet. Wir ermöglichen den ersten Kontakt und wahren dabei vollständige Unabhängigkeit und fördern die Forschungsintegrität. Unsere Plattform führt selbst keine Forschung durch und greift nicht in Design, Durchführung oder Ergebnisse von Forschungsprojekten ein.",
+      "integrity": "Forschungsintegrität",
+      "network": "Globales Netzwerk",
+      "response": "24h Antwort"
+    }
+  },
+  "footer": {
+    "description": "Eine unabhängige Plattform, die Forscher mit Projektinhabern weltweit verbindet. Wir ermöglichen den ersten Kontakt und wahren dabei vollständige Unabhängigkeit und fördern die Forschungsintegrität.",
+    "features": {
+      "independent": "Unabhängige Plattform",
+      "global": "Globales Netzwerk",
+      "crossBorder": "Grenzüberschreitende Zusammenarbeit"
+    },
+    "platform": "Plattform",
+    "resources": "Ressourcen",
+    "submitProfile": "Profil einreichen",
+    "submitProject": "Projekt einreichen",
+    "howItWorks": "Wie es funktioniert",
+    "getSupport": "Hilfe erhalten",
+    "contactTitle": "Kontaktieren Sie uns",
+    "contactDesc": "Haben Sie Fragen? Wir sind hier, um Ihnen zu helfen, sich mit den richtigen Mitarbeitern zu verbinden.",
+    "getInTouch": "Kontakt aufnehmen",
+    "copyright": "Science Contact Hub. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  }
+}

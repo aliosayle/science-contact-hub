@@ -1,0 +1,498 @@
+/* Page Hero */
+.page-hero {
+  position: relative;
+  padding: 8rem 0 5rem;
+  overflow: hidden;
+}
+
+.page-hero-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--primary-50) 0%, var(--white) 50%, var(--accent-100) 100%);
+  z-index: 0;
+}
+
+.page-hero-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background: radial-gradient(circle at 70% 30%, var(--primary-100) 0%, transparent 50%);
+  opacity: 0.6;
+}
+
+.page-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.page-hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.page-hero-image {
+  position: relative;
+}
+
+.page-hero-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-xl);
+}
+
+.page-hero-image::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--primary-200) 0%, var(--accent-200) 100%);
+  border-radius: var(--radius-xl);
+  z-index: -1;
+}
+
+.page-hero-content {
+  max-width: 600px;
+}
+
+/* Image Banner */
+.image-banner {
+  background: var(--neutral-50);
+  padding: 3rem 0;
+}
+
+.banner-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.banner-image {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.banner-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.banner-image:hover img {
+  transform: scale(1.03);
+}
+
+/* Submit Image */
+.submit-image {
+  margin-top: 2rem;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.submit-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.page-label {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--primary-600);
+  color: var(--white);
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: var(--radius);
+  margin-bottom: 1.25rem;
+}
+
+.page-hero h1 {
+  font-size: 3.25rem;
+  font-weight: 800;
+  color: var(--primary-900);
+  margin-bottom: 1.25rem;
+  line-height: 1.15;
+}
+
+.page-hero p {
+  font-size: 1.125rem;
+  color: var(--neutral-600);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.page-hero-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Participation Section */
+.participation {
+  background: var(--white);
+}
+
+.participation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.participation-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--neutral-200);
+  transition: all var(--transition-base);
+}
+
+.participation-card:hover {
+  border-color: var(--primary-300);
+  box-shadow: var(--shadow-md);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.card-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, var(--primary-100) 0%, var(--primary-50) 100%);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-600);
+}
+
+.card-step {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--neutral-200);
+}
+
+.participation-card h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.75rem;
+  color: var(--neutral-900);
+}
+
+.participation-card p {
+  font-size: 0.9375rem;
+  color: var(--neutral-600);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Benefits Section */
+.benefits-section {
+  background: var(--neutral-50);
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.benefit-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--neutral-200);
+  text-align: center;
+  transition: all var(--transition-base);
+}
+
+.benefit-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.benefit-icon {
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, var(--accent-100) 0%, var(--accent-50) 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-600);
+  margin: 0 auto 1.25rem;
+}
+
+.benefit-card h3 {
+  font-size: 1.0625rem;
+  margin-bottom: 0.5rem;
+  color: var(--neutral-900);
+}
+
+.benefit-card p {
+  font-size: 0.875rem;
+  color: var(--neutral-600);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Expectations Section */
+.expectations {
+  background: var(--white);
+}
+
+.expectations-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.expectations-content h2 {
+  margin-bottom: 1rem;
+}
+
+.expectations-content > p {
+  font-size: 1.0625rem;
+  color: var(--neutral-600);
+  margin-bottom: 2rem;
+}
+
+.expectations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.expectations-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.9375rem;
+  color: var(--neutral-700);
+}
+
+.expectations-list li svg {
+  color: var(--accent-500);
+  flex-shrink: 0;
+  margin-top: 0.125rem;
+}
+
+.notice-card {
+  background: linear-gradient(135deg, var(--primary-800) 0%, var(--primary-900) 100%);
+  padding: 2.5rem;
+  border-radius: var(--radius-xl);
+  color: var(--white);
+  text-align: center;
+}
+
+.notice-card svg {
+  color: var(--accent-400);
+  margin-bottom: 1rem;
+}
+
+.notice-card h4 {
+  font-size: 1.25rem;
+  color: var(--white);
+  margin-bottom: 0.75rem;
+}
+
+.notice-card p {
+  font-size: 0.9375rem;
+  opacity: 0.9;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Submit Section */
+.submit-section {
+  background: var(--neutral-50);
+}
+
+.submit-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.submit-info h2 {
+  margin-bottom: 1rem;
+}
+
+.submit-info > p {
+  font-size: 1.0625rem;
+  color: var(--neutral-600);
+  margin-bottom: 1.5rem;
+}
+
+.submit-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.submit-benefit {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9375rem;
+  color: var(--neutral-700);
+}
+
+.submit-benefit svg {
+  color: var(--accent-500);
+}
+
+/* Form Styles */
+.submit-form {
+  background: var(--white);
+  padding: 2.5rem;
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--neutral-200);
+  box-shadow: var(--shadow-lg);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--neutral-700);
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--neutral-300);
+  border-radius: var(--radius);
+  background: var(--white);
+  transition: all var(--transition-fast);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-500);
+  box-shadow: 0 0 0 3px var(--primary-100);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: var(--neutral-400);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-checkbox {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-checkbox input {
+  width: 18px;
+  height: 18px;
+  margin-top: 0.125rem;
+  flex-shrink: 0;
+  accent-color: var(--primary-600);
+}
+
+.form-checkbox label {
+  font-size: 0.875rem;
+  color: var(--neutral-600);
+  line-height: 1.5;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .page-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .page-hero-image {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .page-hero-image::before {
+    display: none;
+  }
+
+  .page-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .participation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .expectations-wrapper,
+  .submit-wrapper {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .banner-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-hero {
+    padding: 6rem 0 3rem;
+  }
+
+  .page-hero h1 {
+    font-size: 2rem;
+  }
+
+  .page-hero-actions {
+    flex-direction: column;
+  }
+
+  .page-hero-image img {
+    height: 300px;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .submit-form {
+    padding: 1.5rem;
+  }
+
+  .submit-image {
+    display: none;
+  }
+}
