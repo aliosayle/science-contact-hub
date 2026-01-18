@@ -81,11 +81,11 @@ const Home = () => {
               {t('hero.subtitle')}
             </p>
             <div className="hero-actions">
-              <Link to="/researchers" className="btn btn-primary btn-lg">
+              <Link to="/contact" className="btn btn-primary btn-lg">
                 <span>{t('hero.joinResearcher')}</span>
                 <ArrowRight size={20} />
               </Link>
-              <Link to="/project-owners" className="btn btn-secondary btn-lg">
+              <Link to="/contact" className="btn btn-secondary btn-lg">
                 <span>{t('hero.postProject')}</span>
               </Link>
             </div>
@@ -242,10 +242,10 @@ const Home = () => {
               <p>{t('cta.description')}</p>
             </div>
             <div className="cta-actions">
-              <Link to="/researchers" className="btn btn-accent btn-lg">
+              <Link to="/contact" className="btn btn-accent btn-lg">
                 {t('cta.submitProfile')}
               </Link>
-              <Link to="/project-owners" className="btn btn-secondary btn-lg">
+              <Link to="/contact" className="btn btn-secondary btn-lg">
                 {t('cta.submitProject')}
               </Link>
             </div>

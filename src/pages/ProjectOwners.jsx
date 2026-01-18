@@ -75,10 +75,10 @@ const ProjectOwners = () => {
               <h1>{t('projectOwners.title')}</h1>
               <p>{t('projectOwners.description')}</p>
               <div className="page-hero-actions">
-                <a href="#submit-form" className="btn btn-primary btn-lg">
+                <Link to="/contact" className="btn btn-primary btn-lg">
                   <span>{t('projectOwners.submitProject')}</span>
                   <ArrowRight size={20} />
-                </a>
+                </Link>
                 <Link to="/faq" className="btn btn-secondary btn-lg">
                   {t('projectOwners.learnMore')}
                 </Link>
@@ -185,15 +185,15 @@ const ProjectOwners = () => {
         </div>
       </section>
 
-      {/* Submit Form Section */}
+      {/* CTA Section */}
       <section className="section submit-section" id="submit-form">
         <div className="container">
-          <div className="submit-wrapper">
-            <div className="submit-info">
+          <div className="cta-card">
+            <div className="cta-content">
               <span className="section-label">{t('projectOwners.form.label')}</span>
               <h2>{t('projectOwners.form.title')}</h2>
               <p>{t('projectOwners.form.description')}</p>
-              <div className="submit-benefits">
+              <div className="submit-benefits" style={{ marginTop: '1.5rem', marginBottom: '2rem' }}>
                 <div className="submit-benefit">
                   <CheckCircle2 size={20} />
                   <span>{t('projectOwners.form.noFees')}</span>
@@ -207,54 +207,11 @@ const ProjectOwners = () => {
                   <span>{t('projectOwners.form.expertiseMatching')}</span>
                 </div>
               </div>
-              <div className="submit-image">
-                <img 
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=500&q=80" 
-                  alt="Professional project manager"
-                />
-              </div>
-            </div>
-            <form className="submit-form">
-              <div className="form-row">
-                <div className="form-group">
-                  <label htmlFor="name">{t('projectOwners.form.contactName')}</label>
-                  <input type="text" id="name" placeholder="Dr. John Smith" required />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="org">{t('projectOwners.form.organisation')}</label>
-                  <input type="text" id="org" placeholder="University or Institution" required />
-                </div>
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">{t('projectOwners.form.email')}</label>
-                <input type="email" id="email" placeholder="contact@organisation.edu" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="project">{t('projectOwners.form.projectTitle')}</label>
-                <input type="text" id="project" placeholder="Brief project title" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="expertise">{t('projectOwners.form.expertise')}</label>
-                <input type="text" id="expertise" placeholder="e.g., Bioinformatics, Statistical Analysis, Machine Learning" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="details">{t('projectOwners.form.details')}</label>
-                <textarea 
-                  id="details" 
-                  rows="4" 
-                  placeholder={t('projectOwners.form.detailsPlaceholder')}
-                  required
-                ></textarea>
-              </div>
-              <div className="form-checkbox">
-                <input type="checkbox" id="agree" required />
-                <label htmlFor="agree">{t('projectOwners.form.agree')}</label>
-              </div>
-              <button type="submit" className="btn btn-primary btn-lg full-width">
+              <Link to="/contact" className="btn btn-primary btn-lg">
                 <span>{t('projectOwners.form.submit')}</span>
                 <ArrowRight size={20} />
-              </button>
-            </form>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

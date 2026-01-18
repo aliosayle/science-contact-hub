@@ -75,10 +75,10 @@ const Researchers = () => {
               <h1>{t('researchers.title')}</h1>
               <p>{t('researchers.description')}</p>
               <div className="page-hero-actions">
-                <a href="#submit-form" className="btn btn-primary btn-lg">
+                <Link to="/contact" className="btn btn-primary btn-lg">
                   <span>{t('researchers.submitProfile')}</span>
                   <ArrowRight size={20} />
-                </a>
+                </Link>
                 <Link to="/faq" className="btn btn-secondary btn-lg">
                   {t('researchers.learnMore')}
                 </Link>
@@ -185,15 +185,15 @@ const Researchers = () => {
         </div>
       </section>
 
-      {/* Submit Form Section */}
+      {/* CTA Section */}
       <section className="section submit-section" id="submit-form">
         <div className="container">
-          <div className="submit-wrapper">
-            <div className="submit-info">
+          <div className="cta-card">
+            <div className="cta-content">
               <span className="section-label">{t('researchers.form.label')}</span>
               <h2>{t('researchers.form.title')}</h2>
               <p>{t('researchers.form.description')}</p>
-              <div className="submit-benefits">
+              <div className="submit-benefits" style={{ marginTop: '1.5rem', marginBottom: '2rem' }}>
                 <div className="submit-benefit">
                   <CheckCircle2 size={20} />
                   <span>{t('researchers.form.free')}</span>
@@ -207,48 +207,11 @@ const Researchers = () => {
                   <span>{t('researchers.form.globalVisibility')}</span>
                 </div>
               </div>
-              <div className="submit-image">
-                <img 
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=80" 
-                  alt="Researcher professional"
-                />
-              </div>
-            </div>
-            <form className="submit-form">
-              <div className="form-group">
-                <label htmlFor="name">{t('researchers.form.fullName')}</label>
-                <input type="text" id="name" placeholder="Dr. Jane Smith" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">{t('researchers.form.email')}</label>
-                <input type="email" id="email" placeholder="jane.smith@university.edu" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="institution">{t('researchers.form.institution')}</label>
-                <input type="text" id="institution" placeholder="University or Institution" />
-              </div>
-              <div className="form-group">
-                <label htmlFor="field">{t('researchers.form.field')}</label>
-                <input type="text" id="field" placeholder="e.g., Molecular Biology, Data Science" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="interests">{t('researchers.form.interests')}</label>
-                <textarea 
-                  id="interests" 
-                  rows="4" 
-                  placeholder={t('researchers.form.interestsPlaceholder')}
-                  required
-                ></textarea>
-              </div>
-              <div className="form-checkbox">
-                <input type="checkbox" id="agree" required />
-                <label htmlFor="agree">{t('researchers.form.agree')}</label>
-              </div>
-              <button type="submit" className="btn btn-primary btn-lg full-width">
+              <Link to="/contact" className="btn btn-primary btn-lg">
                 <span>{t('researchers.form.submit')}</span>
                 <ArrowRight size={20} />
-              </button>
-            </form>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

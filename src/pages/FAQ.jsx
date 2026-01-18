@@ -201,10 +201,10 @@ const FAQ = () => {
               <p>{t('faq.cta.description')}</p>
             </div>
             <div className="cta-actions">
-              <Link to="/researchers" className="btn btn-accent btn-lg">
+              <Link to="/contact" className="btn btn-accent btn-lg">
                 {t('faq.cta.researcher')}
               </Link>
-              <Link to="/project-owners" className="btn btn-secondary btn-lg">
+              <Link to="/contact" className="btn btn-secondary btn-lg">
                 {t('faq.cta.projectOwner')}
               </Link>
             </div>

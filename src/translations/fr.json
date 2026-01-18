@@ -331,7 +331,7 @@
       "successTitle": "Demande envoyée avec succès",
       "successMessage": "Merci de nous avoir contactés. Notre équipe examinera votre demande et vous répondra dans les 24 à 48 heures ouvrables.",
       "sendAnother": "Soumettre une autre demande",
-      "errorMessage": "Un problème est survenu lors du traitement de votre demande. Veuillez réessayer ou nous contacter directement à info@sciencecontacthub.com.",
+      "errorMessage": "Un problème est survenu lors du traitement de votre demande. Veuillez réessayer ou nous contacter directement.",
       "note": "En soumettant ce formulaire, vous acceptez notre politique de confidentialité. Nous ne partagerons jamais vos informations avec des tiers."
     },
     "affiliation": {

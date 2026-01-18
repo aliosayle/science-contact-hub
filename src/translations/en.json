@@ -331,7 +331,7 @@
       "successTitle": "Request Submitted Successfully",
       "successMessage": "Thank you for contacting us. Our team will review your inquiry and respond within 24-48 business hours.",
       "sendAnother": "Submit Another Inquiry",
-      "errorMessage": "We encountered an issue processing your request. Please try again or contact us directly at info@sciencecontacthub.com.",
+      "errorMessage": "We encountered an issue processing your request. Please try again or contact us directly.",
       "note": "By submitting this form, you agree to our privacy policy. We'll never share your information with third parties."
     },
     "affiliation": {

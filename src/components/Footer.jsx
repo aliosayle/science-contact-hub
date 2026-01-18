@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Mail, ArrowRight, Shield, Users, Globe } from 'lucide-react'
+import { ArrowRight, Shield, Users, Globe } from 'lucide-react'
 import { useLanguage } from '../context/LanguageContext'
 import './Footer.css'
 
@@ -54,8 +54,8 @@ const Footer = () => {
             <div className="footer-links">
               <h4>{t('footer.resources')}</h4>
               <ul>
-                <li><Link to="/researchers">{t('footer.submitProfile')}</Link></li>
-                <li><Link to="/project-owners">{t('footer.submitProject')}</Link></li>
+                <li><Link to="/contact">{t('footer.submitProfile')}</Link></li>
+                <li><Link to="/contact">{t('footer.submitProject')}</Link></li>
                 <li><Link to="/faq">{t('footer.howItWorks')}</Link></li>
                 <li><Link to="/contact">{t('footer.getSupport')}</Link></li>
               </ul>
@@ -64,10 +64,6 @@ const Footer = () => {
             <div className="footer-contact">
               <h4>{t('footer.contactTitle')}</h4>
               <p>{t('footer.contactDesc')}</p>
-              <a href="mailto:info@sciencecontacthub.com" className="contact-email">
-                <Mail size={18} />
-                <span>info@sciencecontacthub.com</span>
-              </a>
               <Link to="/contact" className="footer-cta">
                 <span>{t('footer.getInTouch')}</span>
                 <ArrowRight size={16} />

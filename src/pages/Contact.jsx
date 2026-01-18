@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { 
-  Mail, 
   Clock, 
   Shield, 
   Send,
@@ -141,13 +140,6 @@ const Contact = () => {
               <p>{t('contact.form.description')}</p>
               
               <div className="info-cards">
-                <div className="info-card">
-                  <Mail size={24} />
-                  <div className="info-content">
-                    <h4>{t('contact.form.emailUs')}</h4>
-                    <a href="mailto:info@sciencecontacthub.com">info@sciencecontacthub.com</a>
-                  </div>
-                </div>
                 <div className="info-card">
                   <Clock size={24} />
                   <div className="info-content">
