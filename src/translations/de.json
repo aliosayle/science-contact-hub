@@ -327,6 +327,11 @@
       "message": "Erzählen Sie uns von Ihren Bedürfnissen",
       "messagePlaceholder": "Beschreiben Sie Ihre Anfrage, Forschungsinteressen, Projektbedürfnisse oder Fragen, die Sie haben...",
       "submit": "Anfrage senden",
+      "sending": "Ihre Anfrage wird bearbeitet...",
+      "successTitle": "Anfrage erfolgreich gesendet",
+      "successMessage": "Vielen Dank für Ihre Kontaktaufnahme. Unser Team wird Ihre Anfrage prüfen und innerhalb von 24-48 Geschäftsstunden antworten.",
+      "sendAnother": "Weitere Anfrage senden",
+      "errorMessage": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt unter info@sciencecontacthub.com.",
       "note": "Mit dem Absenden dieses Formulars stimmen Sie unserer Datenschutzrichtlinie zu. Wir werden Ihre Informationen niemals an Dritte weitergeben."
     },
     "affiliation": {

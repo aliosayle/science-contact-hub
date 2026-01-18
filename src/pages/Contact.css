@@ -200,6 +200,123 @@
   margin-bottom: 0;
 }
 
+/* Form Success State */
+.form-success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 2rem;
+  min-height: 400px;
+}
+
+.success-icon {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  animation: scaleIn 0.4s ease-out;
+}
+
+.success-icon svg {
+  color: white;
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.form-success h3 {
+  font-size: 1.5rem;
+  color: var(--neutral-900);
+  margin-bottom: 0.75rem;
+}
+
+.form-success p {
+  font-size: 1rem;
+  color: var(--neutral-600);
+  max-width: 320px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.form-success .btn-outline {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid var(--primary-600);
+  color: var(--primary-600);
+  background: transparent;
+  border-radius: var(--radius);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.form-success .btn-outline:hover {
+  background: var(--primary-600);
+  color: white;
+}
+
+/* Form Error Banner */
+.form-error-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+  color: #dc2626;
+  font-size: 0.9375rem;
+}
+
+.form-error-banner svg {
+  flex-shrink: 0;
+}
+
+/* Disabled State */
+.contact-form input:disabled,
+.contact-form textarea:disabled,
+.contact-form select:disabled {
+  background: var(--neutral-100);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.contact-form button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Loading Spinner */
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* Affiliation Section */
 .affiliation-section {
   background: var(--neutral-50);
