@@ -81,13 +81,13 @@ const Home = () => {
               {t('hero.subtitle')}
             </p>
             <div className="hero-actions">
-              <Link to="/contact" className="btn btn-primary btn-lg">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5LAIvmeTTHQq-0PLCKW8dBFc0kIGjZFVq2OdDW3pL3pQehA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">
                 <span>{t('hero.joinResearcher')}</span>
                 <ArrowRight size={20} />
-              </Link>
-              <Link to="/contact" className="btn btn-secondary btn-lg">
+              </a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZwTgKZjmpwBrewErPRbaPTf4r9NgU9P2b6MnwbOnAouiMUQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-lg">
                 <span>{t('hero.postProject')}</span>
-              </Link>
+              </a>
             </div>
             <div className="hero-stats">
               <div className="stat">
@@ -242,12 +242,12 @@ const Home = () => {
               <p>{t('cta.description')}</p>
             </div>
             <div className="cta-actions">
-              <Link to="/contact" className="btn btn-accent btn-lg">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5LAIvmeTTHQq-0PLCKW8dBFc0kIGjZFVq2OdDW3pL3pQehA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="btn btn-accent btn-lg">
                 {t('cta.submitProfile')}
-              </Link>
-              <Link to="/contact" className="btn btn-secondary btn-lg">
+              </a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZwTgKZjmpwBrewErPRbaPTf4r9NgU9P2b6MnwbOnAouiMUQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-lg">
                 {t('cta.submitProject')}
-              </Link>
+              </a>
             </div>
           </div>
         </div>

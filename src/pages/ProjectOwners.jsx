@@ -75,10 +75,10 @@ const ProjectOwners = () => {
               <h1>{t('projectOwners.title')}</h1>
               <p>{t('projectOwners.description')}</p>
               <div className="page-hero-actions">
-                <Link to="/contact" className="btn btn-primary btn-lg">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZwTgKZjmpwBrewErPRbaPTf4r9NgU9P2b6MnwbOnAouiMUQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">
                   <span>{t('projectOwners.submitProject')}</span>
                   <ArrowRight size={20} />
-                </Link>
+                </a>
                 <Link to="/faq" className="btn btn-secondary btn-lg">
                   {t('projectOwners.learnMore')}
                 </Link>
@@ -207,10 +207,10 @@ const ProjectOwners = () => {
                   <span>{t('projectOwners.form.expertiseMatching')}</span>
                 </div>
               </div>
-              <Link to="/contact" className="btn btn-primary btn-lg">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZwTgKZjmpwBrewErPRbaPTf4r9NgU9P2b6MnwbOnAouiMUQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">
                 <span>{t('projectOwners.form.submit')}</span>
                 <ArrowRight size={20} />
-              </Link>
+              </a>
             </div>
           </div>
         </div>

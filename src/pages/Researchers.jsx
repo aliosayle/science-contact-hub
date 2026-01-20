@@ -75,10 +75,10 @@ const Researchers = () => {
               <h1>{t('researchers.title')}</h1>
               <p>{t('researchers.description')}</p>
               <div className="page-hero-actions">
-                <Link to="/contact" className="btn btn-primary btn-lg">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5LAIvmeTTHQq-0PLCKW8dBFc0kIGjZFVq2OdDW3pL3pQehA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">
                   <span>{t('researchers.submitProfile')}</span>
                   <ArrowRight size={20} />
-                </Link>
+                </a>
                 <Link to="/faq" className="btn btn-secondary btn-lg">
                   {t('researchers.learnMore')}
                 </Link>
@@ -207,10 +207,10 @@ const Researchers = () => {
                   <span>{t('researchers.form.globalVisibility')}</span>
                 </div>
               </div>
-              <Link to="/contact" className="btn btn-primary btn-lg">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5LAIvmeTTHQq-0PLCKW8dBFc0kIGjZFVq2OdDW3pL3pQehA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">
                 <span>{t('researchers.form.submit')}</span>
                 <ArrowRight size={20} />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
