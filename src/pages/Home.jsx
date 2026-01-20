@@ -80,15 +80,6 @@ const Home = () => {
             <p className="hero-subtitle">
               {t('hero.subtitle')}
             </p>
-            <div className="hero-actions">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5LAIvmeTTHQq-0PLCKW8dBFc0kIGjZFVq2OdDW3pL3pQehA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">
-                <span>{t('hero.joinResearcher')}</span>
-                <ArrowRight size={20} />
-              </a>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZwTgKZjmpwBrewErPRbaPTf4r9NgU9P2b6MnwbOnAouiMUQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-lg">
-                <span>{t('hero.postProject')}</span>
-              </a>
-            </div>
             <div className="hero-stats">
               <div className="stat">
                 <Globe size={20} />
