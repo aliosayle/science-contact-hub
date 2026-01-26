@@ -46,7 +46,6 @@ const Footer = () => {
               <ul>
                 <li><Link to="/">{t('nav.home')}</Link></li>
                 <li><Link to="/researchers">{t('nav.researchers')}</Link></li>
-                <li><Link to="/project-owners">{t('nav.projectOwners')}</Link></li>
                 <li><Link to="/faq">{t('nav.faq')}</Link></li>
               </ul>
             </div>
@@ -55,7 +54,6 @@ const Footer = () => {
               <h4>{t('footer.resources')}</h4>
               <ul>
                 <li><Link to="/contact">{t('footer.submitProfile')}</Link></li>
-                <li><Link to="/contact">{t('footer.submitProject')}</Link></li>
                 <li><Link to="/faq">{t('footer.howItWorks')}</Link></li>
                 <li><Link to="/contact">{t('footer.getSupport')}</Link></li>
               </ul>

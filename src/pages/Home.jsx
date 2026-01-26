@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import { 
   ArrowRight, 
   Users, 
-  Briefcase, 
   Shield, 
   Globe, 
   Handshake,
@@ -22,12 +21,6 @@ const Home = () => {
       title: t('overview.forResearchers.title'),
       description: t('overview.forResearchers.description'),
       link: '/researchers'
-    },
-    {
-      icon: <Briefcase size={28} />,
-      title: t('overview.forOwners.title'),
-      description: t('overview.forOwners.description'),
-      link: '/project-owners'
     },
     {
       icon: <Shield size={28} />,
@@ -80,6 +73,12 @@ const Home = () => {
             <p className="hero-subtitle">
               {t('hero.subtitle')}
             </p>
+            <div className="hero-actions">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5LAIvmeTTHQq-0PLCKW8dBFc0kIGjZFVq2OdDW3pL3pQehA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">
+                <span>{t('hero.joinResearcher')}</span>
+                <ArrowRight size={20} />
+              </a>
+            </div>
             <div className="hero-stats">
               <div className="stat">
                 <Globe size={20} />
@@ -147,15 +146,6 @@ const Home = () => {
               />
               <div className="image-overlay">
                 <h4>{t('overview.integrity.title')}</h4>
-              </div>
-            </div>
-            <div className="image-card">
-              <img 
-                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80" 
-                alt="Project collaboration"
-              />
-              <div className="image-overlay">
-                <h4>{t('overview.forOwners.title')}</h4>
               </div>
             </div>
           </div>
@@ -235,9 +225,6 @@ const Home = () => {
             <div className="cta-actions">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5LAIvmeTTHQq-0PLCKW8dBFc0kIGjZFVq2OdDW3pL3pQehA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="btn btn-accent btn-lg">
                 {t('cta.submitProfile')}
-              </a>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZwTgKZjmpwBrewErPRbaPTf4r9NgU9P2b6MnwbOnAouiMUQ/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-lg">
-                {t('cta.submitProject')}
               </a>
             </div>
           </div>
