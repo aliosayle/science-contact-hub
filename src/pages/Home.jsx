@@ -78,6 +78,7 @@ const Home = () => {
                 <span>{t('hero.joinResearcher')}</span>
                 <ArrowRight size={20} />
               </a>
+              <p className="hero-email-note">{t('hero.emailNote')}</p>
             </div>
             <div className="hero-stats">
               <div className="stat">
